@@ -1,0 +1,39 @@
+{
+    "name": "Tribos",
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "Gabbro.ThaeSystem",
+    "Base":
+    {
+        "surfaceGravity": 1.5,
+        "surfaceSize": 60,
+        "groundSize": 60,
+        "hasCometTail": false,
+        "sphereOfInfluence": 70,
+        "gravityFallOff": "inverseSquared",
+        "ambientLight": 0.5,
+        "hasMapMarker": true,
+        "hasReferenceFrame": true
+    },
+    "Orbit": 
+    {
+        "semiMajorAxis": 26000,
+        "inclination": -25.2,
+        "primaryBody": "Thae",
+        "longitudeOfAscendingNode": 76,
+        "eccentricity": 0.6,
+        "argumentOfPeriapsis": 90.7,
+        "siderealPeriod": 2
+    },
+    "Atmosphere": 
+    {
+        "fogSize": 64,
+        "fogDensity": 0.2077,
+        "fogTint": 
+        {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+        }
+    }
+}

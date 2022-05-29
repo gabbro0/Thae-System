@@ -1,0 +1,65 @@
+{
+    "name" : "Kater",
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "Gabbro.ThaeSystem",
+    "Base": 
+    {
+        "surfaceGravity": 25.2,
+        "surfaceSize": 1100,
+        "hasMapMarker": true,
+        "ambientLight": 0.9,
+        "gravityFallOff": "inverseSquared",
+        "hasReferenceFrame": true
+    },
+    "Orbit": 
+    {
+        "semiMajorAxis": 18300,
+        "inclination": 0,
+        "primaryBody": "Thae",
+        "isMoon": false,
+        "showOrbitLine" : true,
+        "tint": 
+        {
+            "r" : 255,
+            "g" : 255,
+            "b" : 247,
+            "a" : 255
+        },
+        "longitudeOfAscendingNode": 102,
+        "eccentricity": 0,
+        "argumentOfPeriapsis": 33.1,
+        "trueAnomaly": 267.9,
+        "axialTilt": 30,
+        "siderealPeriod": -0.92
+    },
+    "Atmosphere": 
+    {
+        "hasOxygen": false,
+        "size": 1180,
+        "atmosphereTint": 
+        {
+            "r": 250,
+            "g": 250,
+            "b": 250,
+            "a": 255
+        },
+        "useAtmosphereShader": true,
+        "clouds":
+        {
+            "texturePath": "Planets/assests/kater_clouds.png",
+            "fluidType": "cloud",
+            "innerCloudRadius": 1100,
+            "outerCloudRadius": 1150,
+            "useBasicCloudShader": true
+        },
+        "fogSize": 1000,
+        "fogTint": 
+        {
+            "r": 250,
+            "g": 250,
+            "b": 250,
+            "a": 255
+        },
+        "fogDensity": 0.7
+    }
+}

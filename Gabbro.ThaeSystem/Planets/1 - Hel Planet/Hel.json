@@ -1,0 +1,75 @@
+{
+        "name" : "Hel",
+        "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+        "starSystem" : "Gabbro.ThaeSystem",
+        "Spawn" :
+        {
+               "playerSpawnPoint" :
+               {"x": -1200, "y": 700, "z": 500},
+               "shipSpawnPoint" :
+               {"x": -1200, "y": 700, "z": 500},
+               "startWithSuit" : true,
+               "shipSpawnRotation": 
+               {"x": 180} 
+        },
+        "Base" :
+        {
+               "surfaceGravity" : 56,
+               "surfaceSize" : 570,
+               "groundSize" : 570,
+               "hasMapMarker" : true,
+               "gravityFallOff" : "inverseSquared",
+               "hasReferenceFrame": true,
+               "ambientLight" : 0.2
+        },
+        "Orbit" :
+        {
+               "semiMajorAxis" : 9060,
+               "inclination" : 0,
+               "primaryBody" : "Thae",
+               "isMoon" : false,
+               "showOrbitLine": true,
+               "tint": 
+               {
+                      "r": 207,
+                      "g": 14,
+                      "b": 0,
+                      "a": 255
+               },
+               "longitudeOfAscendingNode" : 132,
+               "eccentricity" : 0,
+               "argumentOfPeriapsis" : 285,
+               "trueAnomaly" : 76.4,
+               "axialTilt" : 0.315,
+               "siderealPeriod" : 15.6
+        },
+        "Atmosphere" :
+        {
+               "hasOxygen" : false,
+               "size" : 500,
+               "useAtmosphereShader": true,
+               "atmosphereTint": 
+               {
+                     "r" : 255,
+                     "g" : 23,
+                     "b" : 0,
+                     "a" : 255
+               },
+               "fogTint" :
+               {
+                       "r" : 255,
+                       "g" : 23,
+                       "b" : 0,
+                       "a" : 255
+               },
+               "fogDensity" : 1,
+               "fogSize" : 670
+        },
+        "HeightMap" :
+        {
+               "heightMap" : "planets/assests/blank_heightmap.png",
+               "textureMap" : "planets/assests/Hel_texture.png",
+               "minHeight" : 450,
+               "maxHeight" : 570
+        }
+}

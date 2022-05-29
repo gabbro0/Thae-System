@@ -1,0 +1,81 @@
+{
+    "name": "Carsu",
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "Gabbro.ThaeSystem",
+    "Base": 
+    {
+        "surfaceGravity": 12,
+        "surfaceSize": 220,
+        "groundSize": 220,
+        "gravityFallOff": "inverseSquared",
+        "ambientLight": 1.6,
+        "hasMapMarker": true,
+        "hasReferenceFrame": true
+    },
+    "Orbit": 
+    {
+        "semiMajorAxis": 2900,
+        "inclination": 30.1,
+        "primaryBody": "Kater",
+        "isMoon": true,
+        "alignmentAxis": 
+        {
+            "x": 0.3,
+            "y": 0.5,
+            "z": 0
+        },
+        "showOrbitLine": true,
+        "tint": 
+        {
+            "r": 101,
+            "g": 101,
+            "b": 255,
+            "a": 255
+        },
+        "longitudeOfAscendingNode": 174,
+        "eccentricity": 0,
+        "argumentOfPeriapsis": 51.1,
+        "trueAnomaly": 69.9,
+        "isTidallyLocked": true
+    },
+    "Atmosphere": 
+    {
+        "hasOxygen": true,
+        "size": 340,
+        "useAtmosphereShader": true,
+        "atmosphereTint": 
+        {
+            "r": 87,
+            "g": 151,
+            "b": 255,
+            "a": 255
+        },
+        "fogSize": 330,
+        "fogTint": 
+        {
+            "r": 117,
+            "g": 158,
+            "b": 253,
+            "a": 255
+        },
+        "fogDensity": 0.1
+    },
+    "HeightMap": 
+    {
+        "heightMap": "Planets/assests/carsu_height.png",
+        "textureMap": "Planets/assests/carsu_texture.png",
+        "maxHeight": 250,
+        "minHeight": 220
+    },
+    "Water": 
+    {
+        "size": 234,
+        "tint": 
+        {
+            "r": 51,
+            "g": 51,
+            "b": 107,
+            "a": 255
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+        "name": "Thae",
+        "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+        "starSystem" : "Gabbro.ThaeSystem",
+        "Base" :
+        {
+                "surfaceGravity" : 100,
+                "surfaceSize" : 2000,
+                "hasMapMarker" : true,
+                "gravityFallOff" : "inverseSquared",
+                "centerOfSolarSystem" : true
+        },
+        "Orbit" :
+        {
+                "isStatic" : true
+        },
+        "Atmosphere" :
+        {
+                "size" : 2200,
+                "fogTint" :
+                {
+                        "r" : 255,
+                        "g" : 238,
+                        "b" : 214,
+                        "a" : 255
+                },
+                "fogDensity": 0.4,
+                "fogSize": 2700
+        },
+        "Star" :
+        {
+                "size" : 2000,
+                "tint" :
+                {
+                        "r" : 255,
+                        "g" : 255,
+                        "b" : 255,
+                        "a" : 255
+                },
+                "solarLuminosity" : 1.7,
+                "lightTint": 
+                {
+                        "r": 255,
+                        "g": 255,
+                        "b": 255,
+                        "a": 255
+                },
+                "hasAtmosphere": true
+        }
+}
+
+
+
+
+
+
+
+
+

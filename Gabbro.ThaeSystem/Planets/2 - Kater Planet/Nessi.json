@@ -1,0 +1,39 @@
+{
+    "name": "Nessi",
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "Gabbro.ThaeSystem",
+    "Base":
+    {
+        "surfaceGravity": 5.6,
+        "surfaceSize": 89,
+        "groundSize": 89,
+        "gravityFallOff": "inverseSquared",
+        "hasMapMarker": true
+    },
+    "Orbit": 
+    {
+        "semiMajorAxis": 4400,
+        "inclination": 30.1,
+        "primaryBody": "Kater",
+        "isMoon": true,
+        "alignmentAxis": 
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0
+        },
+        "showOrbitLine":true,
+        "tint": 
+        {
+            "r": 219,
+            "b": 71,
+            "g": 55,
+            "a": 255
+        },
+        "longitudeOfAscendingNode": 174,
+        "eccentricity": 0,
+        "argumentOfPeriapsis": 51.1,
+        "trueAnomaly": 77.4,
+        "isTidallyLocked": true
+    }
+}

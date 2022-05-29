@@ -1,0 +1,61 @@
+{
+    "name": "Orchid",
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "Gabbro.ThaeSystem",
+    "Base": 
+    {
+        "surfaceGravity": 5.6,
+        "surfaceSize": 108,
+        "groundSize": 108,
+        "gravityFallOff": "inverseSquared",
+        "ambientLight": 0.7,
+        "hasMapMarker":true,
+        "hasReferenceFrame": true
+    },
+    "Orbit": 
+    {
+        "semiMajorAxis": 7400,
+        "inclination": 25,
+        "primaryBody": "Bouquet",
+        "isMoon":true,
+        "alignmentAxis":
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0
+        },
+        "showOrbitLine": true,
+        "tint":
+        {
+            "r": 246,
+            "g": 54,
+            "b": 84,
+            "a": 255
+        },
+        "longitudeOfAscendingNode": 180,
+        "eccentricity": 0,
+        "trueAnomaly": 12,
+        "argumentOfPeriapsis": 203,
+        "isTidallyLocked": true
+    },
+    "Atmosphere": 
+    {
+        "useAtmosphereShader": true,
+        "size": 180,
+        "atmosphereTint": 
+        {
+            "r": 249,
+            "g": 93,
+            "b": 255,
+            "a": 255
+        },
+        "fogTint": 
+        {
+            "r": 249,
+            "g": 93,
+            "b": 255,
+            "a": 255
+        },
+        "fogSize": 180
+    }
+}

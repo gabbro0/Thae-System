@@ -1,0 +1,58 @@
+{
+    "name" : "Ephus",
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "Gabbro.ThaeSystem",
+    "Base": 
+    {
+        "surfaceGravity": 6.8,
+        "surfaceSize": 209,
+        "groundSize": 209,
+        "gravityFallOff": "inverseSquared",
+        "hasMapMarker": true,
+        "hasReferenceFrame": true
+    },
+    "Orbit": 
+    {
+        "semiMajorAxis": 22900,
+        "inclination": 0,
+        "primaryBody": "Thae",
+        "isMoon": false,
+        "showOrbitLine": true,
+        "tint": 
+        {
+            "r": 51,
+            "g": 153,
+            "b": 255,
+            "a": 255
+        },
+        "longitudeOfAscendingNode": 325,
+        "eccentricity": 0,
+        "argumentOfPeriapsis": 126,
+        "trueAnomaly": 22.3,
+        "axialTilt": 7.68,
+        "siderealPeriod": 21.1
+    },
+    "Atmosphere": 
+    {
+        "hasOxygen": false,
+        "size": 276,
+        "useAtmosphereShader": true,
+        "atmosphereTint": 
+        {
+            "r": 36,
+            "g": 145,
+            "b": 255,
+            "a": 255
+        },
+        "fogSize": 267,
+        "fogDensity": 0.5,
+        "fogTint": 
+        {
+            "r": 51,
+            "g": 153,
+            "b": 255,
+            "a": 255
+        },
+        "hasSnow": true
+    }
+}

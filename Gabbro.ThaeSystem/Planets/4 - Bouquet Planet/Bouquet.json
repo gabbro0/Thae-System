@@ -1,0 +1,74 @@
+{
+    "name" : "Bouquet",
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem" : "Gabbro.ThaeSystem",
+    "Base" :
+    {
+        "surfaceGravity": 27.7,
+        "surfaceSize": 890,
+        "hasMapMarker": true,
+        "hasReferenceFrame": true,
+        "gravityFallOff": "inverseSquared",
+        "ambientLight": 1
+    },
+    "Orbit": 
+    {
+        "semiMajorAxis": 37550,
+        "inclination": 15.1,
+        "primaryBody": "Thae",
+        "isMoon": false,
+        "showOrbitLine": true,
+        "tint": 
+        {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 255
+        },
+        "longitudeOfAscendingNode": 226,
+        "eccentricity": 0,
+        "argumentOfPeriapsis": 214,
+        "trueAnomaly": 231,
+        "axialTilt": 24.7,
+        "siderealPeriod": 61.9
+    },
+    "Atmosphere": 
+    {
+        "hasOxygen": false,
+        "size": 900,
+        "useAtmosphereShader": true,
+        "atmosphereTint":
+        {
+            "r": 165,
+            "g": 220,
+            "b": 255,
+            "a": 255
+        },
+        "clouds":
+        {
+            "texturePath": "Planets/assests/bouquet_clouds.png",
+            "fluidType": "cloud",
+            "innerCloudRadius": 810,
+            "outerCloudRadius": 890,
+            "useBasicCloudShader": true,
+            "unlit": false,
+            "hasLightning": true,
+            "tint": 
+            {
+                "r": 66,
+                "g": 58,
+                "b": 137,
+                "a": 255
+            }
+        }
+    },
+    "Ring": 
+    {
+        "texture": "Planets/assests/bouquet_ring.png",
+        "innerRadius": 970,
+        "outerRadius": 4300,
+        "inclination": 0,
+        "unlit": true,
+        "fluidType": "sand"
+    }
+}

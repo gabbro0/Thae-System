@@ -1,0 +1,72 @@
+{
+    "name" : "Garmr",
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem" : "Gabbro.ThaeSystem",
+    "Base" :
+    {
+        "surfaceGravity": 13.4,
+        "surfaceSize": 227.5,
+        "groundSize": 227.5,
+        "hasMapMarker": true,
+        "gravityFallOff": "inverseSquared",
+        "ambientLight": 0.3,
+        "hasReferenceFrame": true
+    },
+    "Orbit": 
+    {
+        "semiMajorAxis": 3300,
+        "inclination": 0,
+        "primaryBody": "Hel",
+        "isMoon": true,
+        "showOrbitLine": true,
+        "tint": 
+        {
+            "r": 188,
+            "g": 204,
+            "b": 255,
+            "a": 0
+        },
+        "isTidallyLocked": true,
+        "alignmentAxis":{"x": -1, "y": 0, "z": 0},
+        "trueAnomaly": 0
+    },
+    "Atmosphere": 
+    {
+        "hasOxygen": false,
+        "size": 285,
+        "hasSnow": true,
+        "useAtmosphereShader": true,
+        "atmosphereTint": 
+        {
+            "r": 30,
+            "g": 163,
+            "b": 255,
+            "a": 255
+        },
+        "fogSize": 265,
+        "fogTint": 
+        {
+            "r": 30,
+            "g": 163,
+            "b": 255,
+            "a": 255
+        },
+        "fogDensity": 0.4,
+        "clouds": 
+        {
+            "texturePath": "/Planets/assests/garmr_clouds.png",
+            "unlit": false,
+            "tint": 
+            {
+                "r": 40,
+                "g": 48,
+                "b": 51,
+                "a": 255
+            },
+            "useBasicCloudShader": true,
+            "fluidType": "cloud",
+            "innerCloudRadius": 260,
+            "outerCloudRadius": 285
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "name" : "Loki",
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem" : "Gabbro.ThaeSystem",
+    "Base": 
+    {
+        "surfaceGravity": 10.5,
+        "surfaceSize": 215,
+        "groundSize": 215,
+        "hasMapMarker": true,
+        "gravityFallOff": "inverseSquared",
+        "hasReferenceFrame": true,
+        "ambientLight": 0.7
+    },
+    "Orbit": 
+    {
+        "semiMajorAxis": 1830,
+        "inclination": 0,
+        "primaryBody": "Hel",
+        "isMoon": true,
+        "showOrbitLine": true,
+        "tint": 
+        {
+            "r": 119,
+            "g": 12,
+            "b": 3,
+            "a": 0
+        },
+        "isTidallyLocked": true,
+        "trueAnomaly": 37.8
+    },
+    "HeightMap": 
+    {
+        "heightMap": "Planets/assests/blank_heightmap.png",
+        "textureMap": "Planets/assests/loki_texture.png",
+        "minHeight": 200,
+        "maxHeight": 215
+    }
+}

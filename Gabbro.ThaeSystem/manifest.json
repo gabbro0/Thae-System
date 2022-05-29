@@ -1,0 +1,9 @@
+{
+  "filename": "NewHorizonsConfig.dll",
+  "author": ".gabbro",
+  "name": "Thae System",
+  "uniqueName": "Gabbro.ThaeSystem",
+  "version": "0.1.2",
+  "owmlVersion": "2.1.0",
+  "dependencies": [ "xen.NewHorizons" ]
+}

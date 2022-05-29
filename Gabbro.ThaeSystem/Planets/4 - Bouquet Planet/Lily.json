@@ -1,0 +1,41 @@
+{
+    "name": "Lily",
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "Gabbro.ThaeSystem",
+    "Base": 
+    {
+        "surfaceGravity": 2.2,
+        "surfaceSize": 68,
+        "groundSize": 68,
+        "gravityFallOff": "inverseSquared",
+        "ambientLight": 0.45,
+        "hasMapMarker":true,
+        "hasReferenceFrame": true
+    },
+    "Orbit": 
+    {
+        "semiMajorAxis": 6500,
+        "inclination": 25,
+        "primaryBody": "Bouquet",
+        "isMoon":true,
+        "alignmentAxis":
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0
+        },
+        "showOrbitLine": true,
+        "tint":
+        {
+            "r": 255,
+            "g": 220,
+            "b": 66,
+            "a": 255
+        },
+        "longitudeOfAscendingNode": 180,
+        "eccentricity": 0,
+        "trueAnomaly": 290,
+        "argumentOfPeriapsis": 203,
+        "isTidallyLocked": true
+    }
+}

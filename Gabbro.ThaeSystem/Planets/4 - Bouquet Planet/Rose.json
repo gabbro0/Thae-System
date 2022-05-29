@@ -1,0 +1,41 @@
+{
+    "name": "Rose",
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "Gabbro.ThaeSystem",
+    "Base": 
+    {
+        "surfaceGravity": 4.5,
+        "surfaceSize": 82,
+        "groundSize": 82,
+        "gravityFallOff": "inverseSquared",
+        "ambientLight": 0.45,
+        "hasMapMarker":true,
+        "hasReferenceFrame": true
+    },
+    "Orbit": 
+    {
+        "semiMajorAxis": 5000,
+        "inclination": 25,
+        "primaryBody": "Bouquet",
+        "isMoon":true,
+        "alignmentAxis":
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0
+        },
+        "showOrbitLine": true,
+        "tint":
+        {
+            "r": 246,
+            "g": 54,
+            "b": 84,
+            "a": 255
+        },
+        "longitudeOfAscendingNode": 180,
+        "eccentricity": 0,
+        "trueAnomaly": 34,
+        "argumentOfPeriapsis": 203,
+        "isTidallyLocked": true
+    }
+}

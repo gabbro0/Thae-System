@@ -1,0 +1,60 @@
+{
+    "name": "Caen",
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "Gabbro.ThaeSystem",
+    "Base":
+    {
+        "surfaceGravity": 3.6,
+        "surfaceSize": 89,
+        "groundSize": 68,
+        "gravityFallOff": "inverseSquared",
+        "ambientLight": 0.6,
+        "hasMapMarker": true,
+        "hasReferenceFrame": true
+    },
+    "Orbit": 
+    {
+        "semiMajorAxis": 980,
+        "inclination": 28.8,
+        "primaryBody": "Ephus",
+        "isMoon": true,
+        "alignmentAxis": 
+        {
+            "x": 0.5,
+            "y": 0.77,
+            "z": 0.23
+        },
+        "showOrbitLine": true,
+        "tint": 
+        {
+            "r": 142,
+            "g": 109,
+            "b": 54,
+            "a": 255
+        },
+        "longitudeOfAscendingNode": 282,
+        "eccentricity": 0,
+        "argumentOfPeriapsis": 0,
+        "trueAnomaly": 42.6,
+        "isTidallyLocked": true
+    },
+    "Atmosphere": 
+    {
+        "fogSize": 98,
+        "fogTint":
+        {
+            "r": 144,
+            "g": 174,
+            "b": 192,
+            "a": 255
+        },
+        "fogDensity": 0.7
+    },
+    "HeightMap": 
+    {
+        "heightMap": "Planets/assests/caen_height.png",
+        "textureMap": "Planets/assests/caen_texture.png",
+        "maxHeight": 89,
+        "minHeight": 68
+    }
+}

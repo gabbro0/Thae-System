@@ -1,0 +1,53 @@
+{
+    "name": "Sari",
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "starSystem": "Gabbro.ThaeSystem",
+    "Base": 
+    {
+        "surfaceGravity": 8.9,
+        "surfaceSize": 180,
+        "groundSize": 180,
+        "gravityFallOff": "inverseSquared",
+        "ambientLight": 0.8,
+        "hasMapMarker": true
+    },
+    "Orbit": 
+    {
+        "semiMajorAxis": 3800,
+        "inclination": 30.1,
+        "primaryBody": "Kater",
+        "isMoon": true,
+        "alignmentAxis": 
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0
+        },
+        "showOrbitLine": true,
+        "tint": 
+        {
+            "r": 255,
+            "g": 223,
+            "b": 57,
+            "a": 255
+        },
+        "longitudeOfAscendingNode": 174,
+        "eccentricity": 0,
+        "argumentOfPeriapsis": 51.1,
+        "trueAnomaly": 239.7,
+        "isTidallyLocked": true
+    },
+    "Atmosphere": 
+    {
+        "hasOxygen": true,
+        "size": 230,
+        "useAtmosphereShader": true,
+        "atmosphereTint": 
+        {
+            "r": 57,
+            "g": 247,
+            "b": 255,
+            "a": 255
+        }
+    }
+}
